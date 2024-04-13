@@ -17,7 +17,7 @@ mess = "PLTW AP Computer Science Principles. We are learning about data."
 # TODO
 
 # print("debug list of ascii values:", asclist)
-
+# ^^^ uncomment and run to see what it looks like so far
 
 
 # convert to list of binary, removing '0b' prefix
@@ -25,7 +25,7 @@ mess = "PLTW AP Computer Science Principles. We are learning about data."
 # TODO
 
 # print("debug list of binary nums:", binlist)
-
+# ^^^ uncomment and run to see what it looks like so far
 
 
 
@@ -52,8 +52,8 @@ s = ''
 
 # length of list, square root, round up
 # this will be the size of the 2D list
-size = int(math.ceil((len(s))**0.5))
-mat = [[(0,0,0)]*size for _ in range(size)]
+size = 0
+mat = []
 # print("debug zeros 2d list:", mat)
 
 # convert to square 2d list
@@ -66,4 +66,5 @@ mat = [[(0,0,0)]*size for _ in range(size)]
 
 # save to image, magic!
 # result = Image.fromarray(np.uint8(mat))
-# result.save("u22inProgressUnsynced/bw_encryption.png")
+# result.save("bw_encryption.png")
+# ^^^ uncomment and check out the image!!
