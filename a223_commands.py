@@ -3,8 +3,9 @@ from tkinter.filedialog import asksaveasfilename
 
 # running commands
 # subprocess.call("ping localhost")
-# subprocess.call("ping www.pltw.org")
-# subprocess.call("nslookup www.pltw.org")
+# TODO ping a web address
+# TODO nslookup a webaddress
+
 
 
 
