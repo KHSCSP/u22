@@ -58,9 +58,12 @@ mat = []
 
 # convert to square 2d list
 # ex: 100100011001011101100 -> [[(255,255,255), (0,0,0), (0,0,0)...]
+# 'count' will keep track of which bit we are on
 # TODO
 
 # print("debug 2d list:", mat)
+
+
 
 
 
