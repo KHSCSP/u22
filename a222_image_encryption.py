@@ -4,11 +4,9 @@ black & white 'encypted' image
 using ascii, then binary
 '''
 
-
 import math
 from PIL import Image 
 import numpy as np
-
 
 mess = "PLTW AP Computer Science Principles. We are learning about data."
 
@@ -18,6 +16,8 @@ mess = "PLTW AP Computer Science Principles. We are learning about data."
 
 # print("debug list of ascii values:", asclist)
 # ^^^ uncomment and run to see what it looks like so far
+
+
 
 
 # convert to list of binary, removing '0b' prefix
@@ -41,6 +41,9 @@ s = ''
 # TODO
 
 # print("debug long string:", s)
+
+
+
 
 # Question: in theory, how many bits 
 # will be required for our image?
